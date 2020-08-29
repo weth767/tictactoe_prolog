@@ -1,0 +1,12 @@
+1 - O jogador irá enviar sua jogada via método post
+1.1 - A requisição será no formato 
+{
+    jogador: 'x' ou 'o',
+    posicao: [[0-2],[0-2]]
+}
+2 - Será retornado a ele o estado atual do tabuleiro caso a jogada
+seja valida, senão retorna um erro.
+3 - Se a jogada enviada for a que vencer/empate do jogo da velha, retorna
+a mensagem correspondente
+
+https://flask.palletsprojects.com/en/1.1.x/
