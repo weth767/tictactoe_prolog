@@ -8,5 +8,3 @@
 seja valida, senão retorna um erro.
 3 - Se a jogada enviada for a que vencer/empate do jogo da velha, retorna
 a mensagem correspondente
-
-https://flask.palletsprojects.com/en/1.1.x/
