@@ -14,7 +14,7 @@ def disableButton(button):
     button.configure(state=DISABLED)
 
 def btnClick(button, position):
-    global bclick, flag, player2_name, player1_name, playerb, pa
+    global bclick, flag
     if button["text"] == " " and bclick == True:
         button["text"] = "X"
         bclick = False
