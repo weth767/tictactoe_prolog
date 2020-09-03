@@ -5,10 +5,16 @@ class TicTacToe:
     prolog = Prolog()
     prolog.consult('tictactoe.pl')
     
+    # método para executar a jogoda no prolog
     def pl(self, player, positionX, positionY, reset=0):
+        # passa a query e seta os parametros, pegando alguns de retorno
         play = self.prolog.query('jogodavelha(' + player + ',' + str(positionX) + ',' + str(positionY) + ', X, O, E,' + str(reset) + ')')
+        # transforma em lista
         values = list(play)
+        # caso não seja reset
         if reset != 1:
+            # pega todos os valores e verifica o que veio de resposta
+            # para cada variavel de resposta
             for i in values:
                 if isinstance(i['X'], int):
                     if i['X'] == 1:
