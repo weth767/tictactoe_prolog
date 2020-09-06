@@ -1,3 +1,5 @@
+# desenvolvido por João Paulo de Souza e Leandro Souza Pinheiro
+
 from tkinter import *
 import tkinter.messagebox
 import tictactoe

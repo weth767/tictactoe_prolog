@@ -1,3 +1,5 @@
+/*desenvolvido por João Paulo de Souza e Leandro Souza Pinheiro*/
+
 /*
     jogadas possíveis para x
 */
